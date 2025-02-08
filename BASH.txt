@@ -1,0 +1,26 @@
+ssh-keys-manager/
+├─ .github/
+│   ├─ ISSUE_TEMPLATE.md
+│   ├─ PULL_REQUEST_TEMPLATE.md
+│   └─ workflows/
+│       └─ ci.yml
+├─ docs/
+│   ├─ images/                # Screenshots, diagramas
+│   └─ usage_guide.md         # Tutorial detalhado de uso
+├─ src/
+│   ├─ cli/                   # Implementação dos comandos CLI
+│   ├─ core/                  # Lógica principal (geração, rotação, distribuição)
+│   ├─ utils/                 # Funções auxiliares
+│   └─ integrations/          # Código específico de integração (GitHub, GitLab etc.)
+├─ tests/
+│   ├─ unit/                  # Testes unitários (testam cada função isolada)
+│   ├─ integration/           # Testes que chamam serviços externos (ou mocks)
+│   └─ e2e/                   # Testes ponta-a-ponta
+├─ examples/
+│   └─ sample_configs/        # Exemplos de configuração, scripts e Dockerfiles
+├─ .gitignore
+├─ LICENSE
+├─ CONTRIBUTING.md
+├─ CODE_OF_CONDUCT.md
+└─ README.md
+
